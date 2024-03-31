@@ -1,0 +1,55 @@
+.bottom-main-cont {
+  background-image: url("https://res.cloudinary.com/dnycuu9qp/image/upload/v1711867304/Banner_b84sge.svg");
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  background-size: cover;
+  border: 1px solid green;
+  padding-left: 150px;
+  padding-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.bottom-main-head {
+  font-size: 20px;
+  color: #ffffff;
+}
+.text-cont {
+  text-align: center;
+  width: 100%;
+  padding: ;
+}
+.bottom-para1 {
+  display: flex;
+  font-size: 10px;
+  color: #ffffff;
+}
+.bottom-para2 {
+  display: none;
+}
+.recommended-lists {
+  border: 1px solid red;
+}
+.eachList {
+  background-color: aliceblue;
+  border-radius: 5px;
+  border: 1px solid red;
+}
+
+@media screen and (min-width: 768px) {
+  .bottom-para2 {
+    display: flex;
+    font-size: 20px;
+    color: aliceblue;
+  }
+  .bottom-para1 {
+    display: none;
+  }
+  .bottom-main-head {
+    font-size: 40px;
+    color: #ffffff;
+  }
+}
