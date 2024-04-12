@@ -141,7 +141,7 @@ class RecommendedShows extends Component {
         <RecommendedLists>
           <Slider {...settings}>
             {imageData.map((each) => (
-              <EachList style={{ margin: "0 10px" }}>
+              <EachList>
                 <EachRecommendedLeftCont>
                   <AgreeHead>Make Agree</AgreeHead>
                   <Location>
